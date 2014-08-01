@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8)
+project( antijitter )
+find_package( OpenCV REQUIRED )
+add_executable( extractfeatures extractfeatures.cpp )
+target_link_libraries( extractfeatures ${OpenCV_LIBS} )
+add_executable( threaddemo threaddemo.cpp)
+target_link_libraries( threaddemo ${OpenCV_LIBS} )

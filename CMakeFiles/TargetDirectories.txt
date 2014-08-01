@@ -1,0 +1,2 @@
+/home/ityonemo/code/antijitter/CMakeFiles/extractfeatures.dir
+/home/ityonemo/code/antijitter/CMakeFiles/threaddemo.dir
