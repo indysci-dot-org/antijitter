@@ -29,9 +29,9 @@ int main( int argc, char** argv )
     int i = 0;
     while (i < 200)
     {
-      if (scanf("%i\t%i\n", &x, &y) == EOF)
-        break;
+      scanf("%i\t%i\n", &x, &y);
       points.push_back(Point2f((float)x,(float)y));
+      printf("%f %f", x, y);
       i++;
     }
 

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ityonemo/code/antijitter
+CMAKE_SOURCE_DIR = /home/ityonemo/Code/antijitter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ityonemo/code/antijitter
+CMAKE_BINARY_DIR = /home/ityonemo/Code/antijitter
 
 # Include any dependencies generated for this target.
 include CMakeFiles/extractfeatures.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/extractfeatures.dir/flags.make
 
 CMakeFiles/extractfeatures.dir/extractfeatures.cpp.o: CMakeFiles/extractfeatures.dir/flags.make
 CMakeFiles/extractfeatures.dir/extractfeatures.cpp.o: extractfeatures.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ityonemo/code/antijitter/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ityonemo/Code/antijitter/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/extractfeatures.dir/extractfeatures.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/extractfeatures.dir/extractfeatures.cpp.o -c /home/ityonemo/code/antijitter/extractfeatures.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/extractfeatures.dir/extractfeatures.cpp.o -c /home/ityonemo/Code/antijitter/extractfeatures.cpp
 
 CMakeFiles/extractfeatures.dir/extractfeatures.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/extractfeatures.dir/extractfeatures.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ityonemo/code/antijitter/extractfeatures.cpp > CMakeFiles/extractfeatures.dir/extractfeatures.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ityonemo/Code/antijitter/extractfeatures.cpp > CMakeFiles/extractfeatures.dir/extractfeatures.cpp.i
 
 CMakeFiles/extractfeatures.dir/extractfeatures.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/extractfeatures.dir/extractfeatures.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ityonemo/code/antijitter/extractfeatures.cpp -o CMakeFiles/extractfeatures.dir/extractfeatures.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ityonemo/Code/antijitter/extractfeatures.cpp -o CMakeFiles/extractfeatures.dir/extractfeatures.cpp.s
 
 CMakeFiles/extractfeatures.dir/extractfeatures.cpp.o.requires:
 .PHONY : CMakeFiles/extractfeatures.dir/extractfeatures.cpp.o.requires
@@ -81,39 +81,34 @@ extractfeatures_EXTERNAL_OBJECTS =
 
 extractfeatures: CMakeFiles/extractfeatures.dir/extractfeatures.cpp.o
 extractfeatures: CMakeFiles/extractfeatures.dir/build.make
-extractfeatures: /usr/local/lib/libopencv_videostab.so.2.4.9
-extractfeatures: /usr/local/lib/libopencv_video.so.2.4.9
+extractfeatures: /usr/local/lib/libopencv_videostab.so.3.0.0
+extractfeatures: /usr/local/lib/libopencv_videoio.so.3.0.0
+extractfeatures: /usr/local/lib/libopencv_video.so.3.0.0
 extractfeatures: /usr/local/lib/libopencv_ts.a
-extractfeatures: /usr/local/lib/libopencv_superres.so.2.4.9
-extractfeatures: /usr/local/lib/libopencv_stitching.so.2.4.9
-extractfeatures: /usr/local/lib/libopencv_photo.so.2.4.9
-extractfeatures: /usr/local/lib/libopencv_ocl.so.2.4.9
-extractfeatures: /usr/local/lib/libopencv_objdetect.so.2.4.9
-extractfeatures: /usr/local/lib/libopencv_nonfree.so.2.4.9
-extractfeatures: /usr/local/lib/libopencv_ml.so.2.4.9
-extractfeatures: /usr/local/lib/libopencv_legacy.so.2.4.9
-extractfeatures: /usr/local/lib/libopencv_imgproc.so.2.4.9
-extractfeatures: /usr/local/lib/libopencv_highgui.so.2.4.9
-extractfeatures: /usr/local/lib/libopencv_gpu.so.2.4.9
-extractfeatures: /usr/local/lib/libopencv_flann.so.2.4.9
-extractfeatures: /usr/local/lib/libopencv_features2d.so.2.4.9
-extractfeatures: /usr/local/lib/libopencv_core.so.2.4.9
-extractfeatures: /usr/local/lib/libopencv_contrib.so.2.4.9
-extractfeatures: /usr/local/lib/libopencv_calib3d.so.2.4.9
-extractfeatures: /usr/local/lib/libopencv_nonfree.so.2.4.9
-extractfeatures: /usr/local/lib/libopencv_ocl.so.2.4.9
-extractfeatures: /usr/local/lib/libopencv_gpu.so.2.4.9
-extractfeatures: /usr/local/lib/libopencv_photo.so.2.4.9
-extractfeatures: /usr/local/lib/libopencv_objdetect.so.2.4.9
-extractfeatures: /usr/local/lib/libopencv_legacy.so.2.4.9
-extractfeatures: /usr/local/lib/libopencv_video.so.2.4.9
-extractfeatures: /usr/local/lib/libopencv_ml.so.2.4.9
-extractfeatures: /usr/local/lib/libopencv_calib3d.so.2.4.9
-extractfeatures: /usr/local/lib/libopencv_features2d.so.2.4.9
-extractfeatures: /usr/local/lib/libopencv_highgui.so.2.4.9
-extractfeatures: /usr/local/lib/libopencv_imgproc.so.2.4.9
-extractfeatures: /usr/local/lib/libopencv_flann.so.2.4.9
-extractfeatures: /usr/local/lib/libopencv_core.so.2.4.9
+extractfeatures: /usr/local/lib/libopencv_superres.so.3.0.0
+extractfeatures: /usr/local/lib/libopencv_stitching.so.3.0.0
+extractfeatures: /usr/local/lib/libopencv_shape.so.3.0.0
+extractfeatures: /usr/local/lib/libopencv_photo.so.3.0.0
+extractfeatures: /usr/local/lib/libopencv_optim.so.3.0.0
+extractfeatures: /usr/local/lib/libopencv_objdetect.so.3.0.0
+extractfeatures: /usr/local/lib/libopencv_nonfree.so.3.0.0
+extractfeatures: /usr/local/lib/libopencv_ml.so.3.0.0
+extractfeatures: /usr/local/lib/libopencv_imgproc.so.3.0.0
+extractfeatures: /usr/local/lib/libopencv_imgcodecs.so.3.0.0
+extractfeatures: /usr/local/lib/libopencv_highgui.so.3.0.0
+extractfeatures: /usr/local/lib/libopencv_flann.so.3.0.0
+extractfeatures: /usr/local/lib/libopencv_features2d.so.3.0.0
+extractfeatures: /usr/local/lib/libopencv_core.so.3.0.0
+extractfeatures: /usr/local/lib/libopencv_calib3d.so.3.0.0
+extractfeatures: /usr/local/share/OpenCV/3rdparty/lib/libippicv.a
+extractfeatures: /usr/local/lib/libopencv_videoio.so.3.0.0
+extractfeatures: /usr/local/lib/libopencv_features2d.so.3.0.0
+extractfeatures: /usr/local/lib/libopencv_highgui.so.3.0.0
+extractfeatures: /usr/local/lib/libopencv_imgcodecs.so.3.0.0
+extractfeatures: /usr/local/lib/libopencv_flann.so.3.0.0
+extractfeatures: /usr/local/lib/libopencv_video.so.3.0.0
+extractfeatures: /usr/local/lib/libopencv_imgproc.so.3.0.0
+extractfeatures: /usr/local/lib/libopencv_core.so.3.0.0
 extractfeatures: CMakeFiles/extractfeatures.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable extractfeatures"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/extractfeatures.dir/link.txt --verbose=$(VERBOSE)
@@ -130,6 +125,6 @@ CMakeFiles/extractfeatures.dir/clean:
 .PHONY : CMakeFiles/extractfeatures.dir/clean
 
 CMakeFiles/extractfeatures.dir/depend:
-	cd /home/ityonemo/code/antijitter && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ityonemo/code/antijitter /home/ityonemo/code/antijitter /home/ityonemo/code/antijitter /home/ityonemo/code/antijitter /home/ityonemo/code/antijitter/CMakeFiles/extractfeatures.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ityonemo/Code/antijitter && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ityonemo/Code/antijitter /home/ityonemo/Code/antijitter /home/ityonemo/Code/antijitter /home/ityonemo/Code/antijitter /home/ityonemo/Code/antijitter/CMakeFiles/extractfeatures.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/extractfeatures.dir/depend
 

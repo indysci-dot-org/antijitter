@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ityonemo/code/antijitter
+CMAKE_SOURCE_DIR = /home/ityonemo/Code/antijitter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ityonemo/code/antijitter
+CMAKE_BINARY_DIR = /home/ityonemo/Code/antijitter
 
 # Include any dependencies generated for this target.
 include CMakeFiles/threaddemo.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/threaddemo.dir/flags.make
 
 CMakeFiles/threaddemo.dir/threaddemo.cpp.o: CMakeFiles/threaddemo.dir/flags.make
 CMakeFiles/threaddemo.dir/threaddemo.cpp.o: threaddemo.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ityonemo/code/antijitter/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ityonemo/Code/antijitter/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/threaddemo.dir/threaddemo.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/threaddemo.dir/threaddemo.cpp.o -c /home/ityonemo/code/antijitter/threaddemo.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/threaddemo.dir/threaddemo.cpp.o -c /home/ityonemo/Code/antijitter/threaddemo.cpp
 
 CMakeFiles/threaddemo.dir/threaddemo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/threaddemo.dir/threaddemo.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ityonemo/code/antijitter/threaddemo.cpp > CMakeFiles/threaddemo.dir/threaddemo.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ityonemo/Code/antijitter/threaddemo.cpp > CMakeFiles/threaddemo.dir/threaddemo.cpp.i
 
 CMakeFiles/threaddemo.dir/threaddemo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/threaddemo.dir/threaddemo.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ityonemo/code/antijitter/threaddemo.cpp -o CMakeFiles/threaddemo.dir/threaddemo.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ityonemo/Code/antijitter/threaddemo.cpp -o CMakeFiles/threaddemo.dir/threaddemo.cpp.s
 
 CMakeFiles/threaddemo.dir/threaddemo.cpp.o.requires:
 .PHONY : CMakeFiles/threaddemo.dir/threaddemo.cpp.o.requires
@@ -81,39 +81,34 @@ threaddemo_EXTERNAL_OBJECTS =
 
 threaddemo: CMakeFiles/threaddemo.dir/threaddemo.cpp.o
 threaddemo: CMakeFiles/threaddemo.dir/build.make
-threaddemo: /usr/local/lib/libopencv_videostab.so.2.4.9
-threaddemo: /usr/local/lib/libopencv_video.so.2.4.9
+threaddemo: /usr/local/lib/libopencv_videostab.so.3.0.0
+threaddemo: /usr/local/lib/libopencv_videoio.so.3.0.0
+threaddemo: /usr/local/lib/libopencv_video.so.3.0.0
 threaddemo: /usr/local/lib/libopencv_ts.a
-threaddemo: /usr/local/lib/libopencv_superres.so.2.4.9
-threaddemo: /usr/local/lib/libopencv_stitching.so.2.4.9
-threaddemo: /usr/local/lib/libopencv_photo.so.2.4.9
-threaddemo: /usr/local/lib/libopencv_ocl.so.2.4.9
-threaddemo: /usr/local/lib/libopencv_objdetect.so.2.4.9
-threaddemo: /usr/local/lib/libopencv_nonfree.so.2.4.9
-threaddemo: /usr/local/lib/libopencv_ml.so.2.4.9
-threaddemo: /usr/local/lib/libopencv_legacy.so.2.4.9
-threaddemo: /usr/local/lib/libopencv_imgproc.so.2.4.9
-threaddemo: /usr/local/lib/libopencv_highgui.so.2.4.9
-threaddemo: /usr/local/lib/libopencv_gpu.so.2.4.9
-threaddemo: /usr/local/lib/libopencv_flann.so.2.4.9
-threaddemo: /usr/local/lib/libopencv_features2d.so.2.4.9
-threaddemo: /usr/local/lib/libopencv_core.so.2.4.9
-threaddemo: /usr/local/lib/libopencv_contrib.so.2.4.9
-threaddemo: /usr/local/lib/libopencv_calib3d.so.2.4.9
-threaddemo: /usr/local/lib/libopencv_nonfree.so.2.4.9
-threaddemo: /usr/local/lib/libopencv_ocl.so.2.4.9
-threaddemo: /usr/local/lib/libopencv_gpu.so.2.4.9
-threaddemo: /usr/local/lib/libopencv_photo.so.2.4.9
-threaddemo: /usr/local/lib/libopencv_objdetect.so.2.4.9
-threaddemo: /usr/local/lib/libopencv_legacy.so.2.4.9
-threaddemo: /usr/local/lib/libopencv_video.so.2.4.9
-threaddemo: /usr/local/lib/libopencv_ml.so.2.4.9
-threaddemo: /usr/local/lib/libopencv_calib3d.so.2.4.9
-threaddemo: /usr/local/lib/libopencv_features2d.so.2.4.9
-threaddemo: /usr/local/lib/libopencv_highgui.so.2.4.9
-threaddemo: /usr/local/lib/libopencv_imgproc.so.2.4.9
-threaddemo: /usr/local/lib/libopencv_flann.so.2.4.9
-threaddemo: /usr/local/lib/libopencv_core.so.2.4.9
+threaddemo: /usr/local/lib/libopencv_superres.so.3.0.0
+threaddemo: /usr/local/lib/libopencv_stitching.so.3.0.0
+threaddemo: /usr/local/lib/libopencv_shape.so.3.0.0
+threaddemo: /usr/local/lib/libopencv_photo.so.3.0.0
+threaddemo: /usr/local/lib/libopencv_optim.so.3.0.0
+threaddemo: /usr/local/lib/libopencv_objdetect.so.3.0.0
+threaddemo: /usr/local/lib/libopencv_nonfree.so.3.0.0
+threaddemo: /usr/local/lib/libopencv_ml.so.3.0.0
+threaddemo: /usr/local/lib/libopencv_imgproc.so.3.0.0
+threaddemo: /usr/local/lib/libopencv_imgcodecs.so.3.0.0
+threaddemo: /usr/local/lib/libopencv_highgui.so.3.0.0
+threaddemo: /usr/local/lib/libopencv_flann.so.3.0.0
+threaddemo: /usr/local/lib/libopencv_features2d.so.3.0.0
+threaddemo: /usr/local/lib/libopencv_core.so.3.0.0
+threaddemo: /usr/local/lib/libopencv_calib3d.so.3.0.0
+threaddemo: /usr/local/share/OpenCV/3rdparty/lib/libippicv.a
+threaddemo: /usr/local/lib/libopencv_videoio.so.3.0.0
+threaddemo: /usr/local/lib/libopencv_features2d.so.3.0.0
+threaddemo: /usr/local/lib/libopencv_highgui.so.3.0.0
+threaddemo: /usr/local/lib/libopencv_imgcodecs.so.3.0.0
+threaddemo: /usr/local/lib/libopencv_flann.so.3.0.0
+threaddemo: /usr/local/lib/libopencv_video.so.3.0.0
+threaddemo: /usr/local/lib/libopencv_imgproc.so.3.0.0
+threaddemo: /usr/local/lib/libopencv_core.so.3.0.0
 threaddemo: CMakeFiles/threaddemo.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable threaddemo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/threaddemo.dir/link.txt --verbose=$(VERBOSE)
@@ -130,6 +125,6 @@ CMakeFiles/threaddemo.dir/clean:
 .PHONY : CMakeFiles/threaddemo.dir/clean
 
 CMakeFiles/threaddemo.dir/depend:
-	cd /home/ityonemo/code/antijitter && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ityonemo/code/antijitter /home/ityonemo/code/antijitter /home/ityonemo/code/antijitter /home/ityonemo/code/antijitter /home/ityonemo/code/antijitter/CMakeFiles/threaddemo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ityonemo/Code/antijitter && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ityonemo/Code/antijitter /home/ityonemo/Code/antijitter /home/ityonemo/Code/antijitter /home/ityonemo/Code/antijitter /home/ityonemo/Code/antijitter/CMakeFiles/threaddemo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/threaddemo.dir/depend
 
